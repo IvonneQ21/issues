@@ -27,13 +27,13 @@ class Issues {
   get avatars() {
   }
 
-  // return an array containing all the `id` property of the `assignedIssue`
-  // property for each issue with an `assignee` property that is not `null`
+  // return an array containing the `id` property of the issue
+  // for each issue with an `assignee` property that is not `null`
   get withAssignee() {
   }
 
-  // return an array containing all the `id` property of the `assignedIssue`
-  // property for each issue with a `pull_request` property that is not `null`
+  // return an array containing the `id` property of the issue
+  //  for each issue with a `pull_request` property that is not `null`
   get withPullRequest() {
   }
 
