@@ -1,9 +1,3 @@
-const fs = require('fs');
-
-// An array created by parsing JSON data for GitHub issues
-// submitted to the ExpressJS repo
-let issues = require('./data/expressIssues');
-
 class Issues {
   constructor (issues) {
     this.issues = issues;
